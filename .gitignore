@@ -1,0 +1,6 @@
+*
+!.gitignore
+!.push-allowed
+!README.md
+!docs/
+!docs/**

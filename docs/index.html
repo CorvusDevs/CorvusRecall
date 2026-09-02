@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Corvus Recall - Private flashcards, fully yours</title>
   <meta name="description" content="A private flashcard app for iPhone, iPad, and Mac with spaced repetition, on-device OCR, flexible imports, and no account or subscription.">
   <link rel="canonical" href="https://corvusdevs.github.io/CorvusRecall/">
@@ -24,10 +24,7 @@
 <body>
   <header class="site-header">
     <a class="brand" href="./"><img src="icon.png" alt=""><span>Corvus Recall</span></a>
-    <nav class="nav" aria-label="Primary">
-      <a href="#study">Study</a><a href="#privacy">Privacy</a><a href="support.html">Support</a><a href="privacy.html">Policy</a>
-      <a class="language-link" href="i18n/es/" lang="es">Español</a>
-    </nav>
+    <nav class="nav" aria-label="Primary"><button class="nav-toggle" aria-label="Menu" aria-expanded="false" onclick="var o=document.body.classList.toggle('nav-open');this.setAttribute('aria-expanded',o);event.stopPropagation();"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg></button><script>(function(){document.addEventListener("click",function(e){if(!document.body.classList.contains("nav-open"))return;var n=document.querySelector("nav");if(n&&!n.contains(e.target)){document.body.classList.remove("nav-open");var b=document.querySelector(".nav-toggle");if(b)b.setAttribute("aria-expanded","false");}});})();</script><ul class="nav-links"><li><a href="#study">Study</a></li><li><a href="#privacy">Privacy</a></li><li><a href="support.html">Support</a></li><li><a href="privacy.html">Policy</a></li><li><a class="language-link" href="i18n/es/" lang="es">文A Español</a></li></ul></nav>
   </header>
   <main>
     <section class="hero">
@@ -36,8 +33,8 @@
         <div class="filing-rule" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
         <h1>Remember more. Keep your cards yours.</h1>
         <p class="lead">Corvus Recall pairs transparent spaced repetition with on-device capture, practical imports, and careful backups. No account, no ads, and no subscription.</p>
-        <div class="actions"><a class="button" href="#study">See how it studies</a><a class="button secondary" href="privacy.html">Read the privacy promise</a></div>
-        <p class="promise">One purchase. Works offline. English and Spanish.</p>
+        <div class="actions"><a class="button" href="https://apps.apple.com/app/id6806901041">Download on the Mac App Store</a><a class="button secondary" href="#study">See how it studies</a><a class="button secondary" href="privacy.html">Read the privacy promise</a></div>
+        <p class="promise">Available now on Mac. iPhone and iPad are under review.</p>
       </div>
       <div class="screen-stack" aria-label="Corvus Recall app screens">
         <figure class="screen-card one"><img src="assets/library.png" alt="A library of flashcard decks in Corvus Recall"></figure>
