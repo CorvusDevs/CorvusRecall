@@ -6,4 +6,8 @@
   <url><loc>https://corvusdevs.github.io/CorvusRecall/i18n/es/</loc></url>
   <url><loc>https://corvusdevs.github.io/CorvusRecall/i18n/es/privacy.html</loc></url>
   <url><loc>https://corvusdevs.github.io/CorvusRecall/i18n/es/support.html</loc></url>
+  <!-- LOCALIZED_CHANGELOG:START -->
+  <url><loc>https://corvusdevs.github.io/CorvusRecall/changelog.html</loc></url>
+  <url><loc>https://corvusdevs.github.io/CorvusRecall/i18n/es/changelog.html</loc></url>
+  <!-- LOCALIZED_CHANGELOG:END -->
 </urlset>
