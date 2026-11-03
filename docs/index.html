@@ -19,12 +19,25 @@
   <meta property="og:url" content="https://corvusdevs.github.io/CorvusRecall/">
   <meta property="og:image" content="https://corvusdevs.github.io/CorvusRecall/og-image.png">
   <meta name="twitter:card" content="summary_large_image">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Corvus Recall","applicationCategory":"EducationalApplication","operatingSystem":"iOS, iPadOS, macOS","description":"Private flashcards with spaced repetition, on-device OCR, imports, backups, widgets, and no account.","offers":{"@type":"Offer","price":"0.99","priceCurrency":"USD"}}</script>
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Corvus Recall",
+  "applicationCategory": "EducationalApplication",
+  "operatingSystem": "iOS, iPadOS, macOS",
+  "description": "Private flashcards with spaced repetition, on-device OCR, imports, backups, widgets, and no account.",
+  "offers": {
+    "@type": "Offer",
+    "price": "0.99",
+    "priceCurrency": "USD"
+  },
+  "softwareVersion": "1.0"
+}</script>
   <script src="/CorvusRecall/language-router.js"></script>
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="./"><img src="icon.png" alt=""><span>Corvus Recall</span></a>
+    <a aria-label="Corvus Recall" class="brand" href="./"><img src="icon.png" alt=""><span>Corvus Recall</span></a>
     <nav class="nav" aria-label="Primary"><button class="nav-toggle" aria-label="Menu" aria-expanded="false" onclick="var o=document.body.classList.toggle('nav-open');this.setAttribute('aria-expanded',o);event.stopPropagation();"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg></button><script>(function(){document.addEventListener("click",function(e){if(!document.body.classList.contains("nav-open"))return;var n=document.querySelector("nav");if(n&&!n.contains(e.target)){document.body.classList.remove("nav-open");var b=document.querySelector(".nav-toggle");if(b)b.setAttribute("aria-expanded","false");}});})();</script><ul class="nav-links"><li><a href="#study">Study</a></li><li><a href="#privacy">Privacy</a></li><li><a href="changelog.html">Updates</a></li><li><a href="support.html">Support</a></li><li><a href="privacy.html">Policy</a></li><li><a class="language-link" href="i18n/es/" lang="es">文A Español</a></li></ul></nav>
   </header>
   <main>
@@ -33,9 +46,9 @@
         <p class="eyebrow">Private flashcards for iPhone, iPad, and Mac</p>
         <div class="filing-rule" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
         <h1>Remember more. Keep your cards yours.</h1>
-        <p class="lead">Corvus Recall pairs transparent spaced repetition with on-device capture, practical imports, and careful backups. No account, no ads, and no subscription.</p>
-        <div class="actions"><a class="button" href="https://apps.apple.com/app/id6806901041">Download on the Mac App Store</a><a class="button secondary" href="#study">See how it studies</a><a class="button secondary" href="privacy.html">Read the privacy promise</a></div>
-        <p class="promise">Available now on Mac. iPhone and iPad are under review.</p>
+        <p class="lead">Corvus Recall pairs transparent spaced repetition with Recall Plans, on-device capture, practical imports, and careful backups. No account, no ads, and no subscription.</p>
+        <div class="actions"><a data-product-store class="button" href="https://apps.apple.com/app/id6806901041">Download on the App Store</a><a class="button secondary" href="#study">See how it studies</a><a class="button secondary" href="privacy.html">Read the privacy promise</a></div>
+        <p class="promise">Available now on iPhone, iPad, and Mac. Requires iOS/iPadOS 18 or macOS 15 or later.</p>
       </div>
       <div class="screen-stack" aria-label="Corvus Recall app screens">
         <figure class="screen-card one"><img src="assets/library.png" alt="A library of flashcard decks in Corvus Recall"></figure>
@@ -53,9 +66,9 @@
           <article class="feature"><strong>FILE 02</strong><h3>Capture on device</h3><p>Create rich cards from text, images, audio, documents, handwriting, and OCR that runs locally.</p></article>
           <article class="feature"><strong>FILE 03</strong><h3>Bring your library</h3><p>Preview CSV and Anki text imports, export clean files, and move complete decks between devices.</p></article>
           <article class="feature"><strong>FILE 04</strong><h3>Backups with receipts</h3><p>Validate native backups, keep recovery snapshots, restore carefully, and optionally use your private iCloud Drive.</p></article>
-          <article class="feature"><strong>FILE 05</strong><h3>Progress that explains itself</h3><p>Track recall, workload, streaks, difficult cards, and upcoming reviews without treating learning as a grade.</p></article>
+          <article class="feature"><strong>FILE 05</strong><h3>Progress that explains itself</h3><p>Track recall, workload, streaks, difficult cards, and upcoming reviews. See why each card is due and preview every answer's exact date.</p></article>
           <article class="feature"><strong>FILE 06</strong><h3>Study wherever work begins</h3><p>Use iPad layouts, widgets, keyboard controls, sharing from other apps, nearby sessions, and SharePlay.</p></article>
-        </div>
+        <article class="feature"><strong>FILE 07</strong><h3>A plan for your goal</h3><p>Recall Plan turns an exam or goal date into a recalculating daily assignment. A readiness ledger shows which topics are ready, building, or still unseen.</p></article><article class="feature"><strong>FILE 08</strong><h3>See the workload ahead</h3><p>Forecast the next seven days of reviews, find weak topics, and inspect each card's before-and-after schedule in its history.</p></article></div>
       </div>
     </section>
 
@@ -66,7 +79,7 @@
       </div>
     </section>
 
-    <section class="section-inner"><div class="closing"><p class="file-label">Corvus Recall 1.0</p><h2>A study tool you can keep.</h2><p>Built with Apple frameworks for iPhone, iPad, and Mac. A single purchase, a portable library, and no recurring bill.</p><div class="actions" style="justify-content:center"><a class="button" href="support.html">Explore support</a><a class="button secondary" href="mailto:corvusdevs@outlook.com?subject=Corvus%20Recall">Contact CorvusDevs</a></div></div></section>
+    <section class="section-inner"><div class="closing"><p class="file-label">Corvus Recall <span data-product-field="version">1.0</span></p><h2>A study tool you can keep.</h2><p>Built with Apple frameworks for iPhone, iPad, and Mac. A single purchase, a portable library, and no recurring bill.</p><div class="actions" style="justify-content:center"><a class="button" href="support.html">Explore support</a><a class="button secondary" href="mailto:corvusdevs@outlook.com?subject=Corvus%20Recall">Contact CorvusDevs</a></div></div></section>
   </main>
   <footer class="site-footer"><div class="footer-inner"><span>Corvus Recall by CorvusDevs</span><div class="footer-links"><a href="changelog.html">Updates</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a href="i18n/es/" lang="es">Español</a></div></div></footer>
 </body>

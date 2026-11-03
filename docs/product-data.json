@@ -1,0 +1,25 @@
+{
+  "slug": "CorvusRecall",
+  "name": "Corvus Recall",
+  "appStoreId": 6806901041,
+  "version": "1.0",
+  "releaseDate": "2026-10-14T14:24:56Z",
+  "originalReleaseDate": "2026-09-02T07:00:00Z",
+  "platforms": [
+    "macOS",
+    "iPhone",
+    "iPad"
+  ],
+  "requirements": {
+    "macOS": "15.0",
+    "iOS": "18.0",
+    "iPadOS": "18.0"
+  },
+  "store": {
+    "kind": "app-store",
+    "label": "App Store",
+    "url": "https://apps.apple.com/app/id6806901041"
+  },
+  "metadataSource": "https://itunes.apple.com/lookup?id=6806901041&country=us",
+  "sourceCatalog": "https://corvusdevs.github.io/apps.json"
+}

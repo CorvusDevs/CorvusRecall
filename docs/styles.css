@@ -17,7 +17,7 @@ pre, table {
   --paper: #f2e6cf;
   --signal: #d93621;
   --pencil: #416f80;
-  --graphite: #66717a;
+  --graphite: #58636c;
   --slip: #fffdf8;
   --canvas: #ece4d7;
   --rule: rgba(13, 27, 36, 0.18);
@@ -93,7 +93,7 @@ main { overflow: hidden; }
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--signal);
+  color: #b52c1a;
 }
 
 .filing-rule {
@@ -168,7 +168,7 @@ h3 { margin: 0; font-size: 1.18rem; letter-spacing: -0.02em; }
   background: rgba(255,255,255,0.025);
   clip-path: polygon(0 0, calc(100% - 18px) 0, 100% 18px, 100% 100%, 0 100%);
 }
-.feature strong { display: block; margin: 0 0 36px; color: var(--signal); font-family: "SFMono-Regular", monospace; font-size: 0.78rem; letter-spacing: 0.1em; }
+.feature strong { display: block; margin: 0 0 36px; color: #ff8b75; font-family: "SFMono-Regular", monospace; font-size: 0.78rem; letter-spacing: 0.1em; }
 .feature p { margin: 12px 0 0; color: #b9c4c9; }
 
 .proof { background: var(--paper); }
